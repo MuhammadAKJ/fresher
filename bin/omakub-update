@@ -1,0 +1,3 @@
+cd $FRESHER_PATH
+git pull
+cd -

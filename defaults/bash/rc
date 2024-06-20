@@ -1,0 +1,4 @@
+source ~/.local/share/fresher/defaults/bash/shell
+source ~/.local/share/fresher/defaults/bash/aliases
+source ~/.local/share/fresher/defaults/bash/prompt
+source ~/.local/share/fresher/defaults/bash/init

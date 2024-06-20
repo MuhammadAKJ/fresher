@@ -1,0 +1,2 @@
+INSTALLER=$(gum file $FRESHER_PATH/install)
+[ -n "$INSTALLER" ] && gum confirm "Run installer?" && source $INSTALLER
