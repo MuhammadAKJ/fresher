@@ -1,49 +1,133 @@
 Web Developers
 
-    Apache, Nginx, PHP, MySQL, Node.js, and various IDEs such as Visual Studio Code, Sublime Text, and Atom.
-    Focus on web development frameworks such as Django, Ruby on Rails, Laravel, etc.
+    Apache
+    Nginx
+    PHP
+    MySQL
+    Node.js
+    Visual Studio Code
+    Sublime Text
+    Atom.
 
 Office Users
 
-    Utilize office productivity software like LibreOffice for word processing, spreadsheets, and presentations.
+    LibreOffice for word processing, spreadsheets, and presentations.
     Often use email clients, calendar applications, and project management tools.
 
 Graphics Designers
 
-    Rely on software like GIMP, Inkscape, Blender, and Krita for graphic design, 3D modeling, and image editing.
+    GIMP
+    Inkscape
+    Blender
+    Krita for graphic design
+    3D modeling
+    image editing.
+    Da Vinci
     May also use Wacom tablet drivers and other design-specific hardware support.
 
 Software Developers
 
-    Work with programming languages and tools like Python, Java, C++, Git, and various IDEs such as Eclipse, PyCharm, and IntelliJ IDEA.
-    Involved in developing applications, writing code, debugging, and testing.
-
+    Python
+    Java
+    C++
+    Git
+    Eclipse
+    PyCharm
+    IntelliJ IDEA.
+    
 System Administrators
 
-    Manage servers and networks using tools like SSH, Docker, Ansible, and various network monitoring tools.
-    Ensure system security, perform backups, and handle user account management.
+    SSH
+    Docker
+    Ansible
+    various network monitoring tools.
 
 Data Scientists
 
-    Use data analysis and visualization tools such as Jupyter Notebooks, R, Python (with libraries like pandas, NumPy, Matplotlib), and statistical software.
-    Often use machine learning frameworks like TensorFlow, PyTorch, and Scikit-learn.
+    Jupyter Notebooks
+    R
+    Python (pandas, NumPy, Matplotlib)
+    statistical software.
+    frameworks like TensorFlow, PyTorch, and Scikit-learn.
 
 Gamers
 
-    Play and develop games using platforms like Steam, Lutris, and PlayOnLinux.
+    Steam
+    Lutris
+    PlayOnLinux.
     Utilize game development tools such as Unity, Unreal Engine, and Godot.
 
 Multimedia Creators
 
-    Engage in video and audio production using tools like Kdenlive, OpenShot, Audacity, and OBS Studio.
+    Kdenlive
+    OpenShot
+    Audacity
+    OBS Studio.
     May also use specialized hardware and software for recording and editing.
 
 Researchers and Academics
 
-    Use scientific computing tools, LaTeX for document preparation, and reference management software like Zotero.
+    LaTeX for document preparation
+    Reference management software like Zotero.
     Often work with specialized software for simulations, data analysis, and research publication.
 
 Casual Users
 
     Use Ubuntu for general purposes such as web browsing, email, social media, and multimedia consumption.
     Prefer a stable and user-friendly environment for daily computing tasks.
+
+
+
+Game launchers:
+
+    Steam.
+
+    Heroic Games Launcher (for epic games store games).
+
+    Lutris (for anything else).
+
+Performance:
+
+    Feral gamemode.
+
+    Proton-GE.
+
+    Wine-GE.
+
+Hardware monitoring:
+
+    Mangohud.
+
+Display protocol:
+
+    X11 (People might disagree but if you want the lowest latency it is the best option right now).
+
+Advanced extras for better performance:
+
+    TKG kernel.
+
+    Ananicy-cpp.
+
+    Irqbalance.
+
+    Proton TKG.
+
+    Wine TKG.
+
+There are other things that I haven’t listed but I didn’t want the list to be too crazy and many of these aren’t necessary but they are nice to know about if you ever want them.
+
+
+
+ Use LateX and BibTex for writing and referencing your thesis. Avoid Office type applications and learn to use LaTeX. It's the standard article format for research level papers.
+
+I'm writing my master's thesis this year, and wrote my undergrad thesis last year, in LaTeX. All of my research papers are also done in LaTeX.
+
+A good package for Ubuntu that I use for writing LaTeX articles; texmaker
+
+Install with
+
+ sudo apt-get install texmaker
+
+Also do
+
+sudo apt-get install texlive-full
