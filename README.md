@@ -6,7 +6,7 @@ Visit https://juma.com.ng/fresher for more info
 
 ## Contributing to the documentation
 
-Please help us improve Fresher's documentation on the [ repository](https://github.com/MuhammadAKJ/).
+Please help us improve Fresher's documentation on the [ repository](https://github.com/MuhammadAKJ/fresher).
 
 ## License
 

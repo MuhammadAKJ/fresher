@@ -9,11 +9,6 @@ Web Developers
     Sublime Text
     Atom.
 
-Office Users
-
-    LibreOffice for word processing, spreadsheets, and presentations.
-    Often use email clients, calendar applications, and project management tools.
-
 Graphics Designers
 
     GIMP
