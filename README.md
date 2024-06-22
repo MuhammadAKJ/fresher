@@ -2,7 +2,7 @@
 
 Turn a fresh Ubuntu installation into a fully-configured, beautiful, and modern web development system by running a single command. Fresher is spun off idea from Omakub. No need to write bespoke configs for every essential tool just to get started or to be up on all the latest command-line tools. Fresher is an opinionated take on what Linux can be at its best.
 
-Visit https://juma.com.ng/fresher for more info
+Visit https://fresher.juma.com.ng/ for more info
 
 ## Contributing to the documentation
 
