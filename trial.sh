@@ -21,6 +21,7 @@ What are you?:\n
 echo -e $options
 read -p "Enter choice (1~9,0):" choice
 
+
 case $choice in
     1) 
         echo "You chosed System Administrator setup"

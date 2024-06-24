@@ -126,3 +126,10 @@ Install with
 Also do
 
 sudo apt-get install texlive-full
+
+
+
+
+
+
+
