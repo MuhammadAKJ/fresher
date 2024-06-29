@@ -37,51 +37,59 @@ case $choice in
         echo "You chosed System Administrator setup"
         echo $sit_back
         for script in ~/.local/share/fresher/install/sysadmin/*.sh; do source $script; done
+        for script in ~/.local/share/fresher/install/util/*.sh; do source $script; done
+        for script in ~/.local/share/fresher/install/terminals/*.sh; do source $script; done
         ;;
     2) 
         echo "You chosed Researcher/Academia setup"
         echo $sit_back
         for script in ~/.local/share/fresher/install/academia/*.sh; do source $script; done
+        for script in ~/.local/share/fresher/install/util/*.sh; do source $script; done
         ;;
     3) 
         echo "You chosed Software Developer setup"
         echo $sit_back
         for script in ~/.local/share/fresher/install/softdev/*.sh; do source $script; done
+        for script in ~/.local/share/fresher/install/util/*.sh; do source $script; done
+        for script in ~/.local/share/fresher/install/terminals/*.sh; do source $script; done
         ;;
     4) 
         echo "You chosed Multimedia Creator setup"
         echo $sit_back
         for script in ~/.local/share/fresher/install/multimedia/*.sh; do source $script; done
+        for script in ~/.local/share/fresher/install/util/*.sh; do source $script; done
         ;;
     5) 
         echo "You chosed Graphic Designer setup"
         echo $sit_back
         for script in ~/.local/share/fresher/install/graphics/*.sh; do source $script; done
+        for script in ~/.local/share/fresher/install/util/*.sh; do source $script; done
         ;;
     6) 
         echo "You chosed Data Scientist setup"
         echo $sit_back
         for script in ~/.local/share/fresher/install/datasci/*.sh; do source $script; done
+        for script in ~/.local/share/fresher/install/util/*.sh; do source $script; done
         ;;
     7) 
         echo "You chosed Web Developer setup"
         echo $sit_back
         for script in ~/.local/share/fresher/install/webdev/*.sh; do source $script; done
+        for script in ~/.local/share/fresher/install/util/*.sh; do source $script; done
+        for script in ~/.local/share/fresher/install/terminals/*.sh; do source $script; done
         ;;
     8) 
         echo "You chosed Gamer setup"
         echo $sit_back
-        for script in ~/.local/share/fresher/install/*.sh; do source $script; done
+        for script in ~/.local/share/fresher/install/gamer/*.sh; do source $script; done
+        for script in ~/.local/share/fresher/install/util/*.sh; do source $script; done
         ;;
     *)  
         echo -e "Invalid choice. Try again\n"
-        goto 52;
+        ;;
         
 esac
 
-
-
-for script in ~/.local/share/fresher/install/*.sh; do source $script; done
 
 # Upgrade everything that might ask for a reboot last
 sudo apt upgrade -y
